@@ -14,7 +14,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Meny</a>
+      <a class="navbar-brand" href="#"><img src="/wp-content/themes/storytelling/images/hbglogo_50.png" alt=""/><?php echo get_bloginfo( 'name' ); ?></a>
     </div>
 
 	<!-- Collect the nav links, forms, and other content for toggling -->
