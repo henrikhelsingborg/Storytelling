@@ -27,6 +27,14 @@ html body.home, html body.page-template-default {
 	background-attachment: fixed;
 }
 
+/* RSS-link */
+--------------
+
+div.container div.row a.rss-link, div.container div.row a.rss-link:visited {
+	color: #fff;
+	font-size: 19px;
+}
+
 /* Typographical Elements
 --------------------------------------------- */
 
