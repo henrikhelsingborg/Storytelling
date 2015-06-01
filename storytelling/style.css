@@ -19,9 +19,9 @@ Template: omega
 Defaults
 ---------------------------------------------------------------------------------------------------- */
 
-/* Background-image on home-page
--------------------------------- */
-html body.home {
+/* Background-image on home-page and subpages
+--------------------------------------------- */
+html body.home, html body.page-template-default {
 	background-image: url('/wp-content/themes/storytelling/images/storybak.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
