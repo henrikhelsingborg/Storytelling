@@ -14,13 +14,18 @@ Template: omega
 (C) 2012-2013 themehall.com.
 */
 
-/* THIS CHILD-THEME WAS CONSTRUCTED TO BE USED WITH PLUGIN 'Background Manager' BUT WILL PROBABLY WORK
-OK WITHOUT IT */
 
 /*
 Defaults
 ---------------------------------------------------------------------------------------------------- */
 
+/* Background-image on home-page
+-------------------------------- */
+html body.home {
+	background-image: url('/wp-content/themes/storytelling/images/storybak.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 /* Typographical Elements
 --------------------------------------------- */
@@ -274,7 +279,6 @@ body {
 .site-inner {
 	clear: both;
 }
-
 
 /* Column Widths and Positions
 --------------------------------------------- */
