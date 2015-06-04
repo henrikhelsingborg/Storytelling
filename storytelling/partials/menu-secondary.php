@@ -5,7 +5,7 @@
 ?>
 <div class="container">
 	<nav class="navbar navbar-default nav-secondary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-		<a href="/?feed=rss" title="Prenumerera på rss-flöde" class="rss-link"><img src="/wp-content/themes/storytelling/images/feed-icon-28x28.png" alt="Rss-flöde"> RSS</a>
+		
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".menu-secondary">

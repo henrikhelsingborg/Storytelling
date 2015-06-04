@@ -19,7 +19,7 @@ function magazine_get_featured_posts() {
 }
 
 get_header(); ?>
-<a href="/?feed=rss" title="Prenumerera på rss-flöde" class="rss-link"><img src="/wp-content/themes/storytelling/images/feed-icon-28x28.png" alt="Rss-flöde"> Prenumerera på RSS</a>
+
 
 
 	<main class="<?php echo omega_apply_atomic( 'main_class', 'content' );?>" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">

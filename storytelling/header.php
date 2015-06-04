@@ -9,7 +9,9 @@
 </head>
 
 <body <?php body_class(); ?> <?php omega_attr( 'body' ); ?>>
-
+	<div class="rss-link">
+		<a href="/?feed=rss" title="Prenumerera på rss-flöde"><img src="/wp-content/themes/storytelling/images/feed-icon-28x28.png" alt="Rss-flöde"> RSS</a>
+	</div>
 <?php do_action( 'omega_before' ); ?>
 
 <div class="<?php echo omega_apply_atomic( 'site_container_class', 'site-container' );?>">

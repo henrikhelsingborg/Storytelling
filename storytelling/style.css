@@ -27,19 +27,16 @@ html body.home, html body.page-template-default {
 	background-attachment: fixed;
 }
 
-/* RSS-link */
---------------
 
-div.container div.row a.rss-link, div.container div.row a.rss-link:visited {
-	color: #fff;
-	font-size: 19px;
-}
+
+
+
 
 /* Typographical Elements
 --------------------------------------------- */
 
 body {
-	padding-top: 90px;
+	/* padding-top: 90px; */
 
 }
 
@@ -132,6 +129,24 @@ pre {
 cite {
 	font-style: normal;
 }
+
+/* RSS-link */
+--------------
+
+html body div.rss-link {
+
+	float: right;
+	padding-right: 3rem;
+
+}
+html body div.rss-link a {
+	color: #fff;
+	text-decoration: underline;
+	padding-right: 3rem;
+	float: right;
+
+}
+
 
 /* Table
 --------------------------------------------- */
@@ -594,6 +609,7 @@ Content Area
 	margin-bottom: 30px;
 }
 
+
 .entry-content {
 	word-wrap: break-word;
 }
@@ -674,13 +690,19 @@ Content Area
 	position: absolute;
 	top: 5rem;
 	margin-left: 2rem;
+	float:left;
 }
 a.post-home-link {
 	font-size: 30px;
 	color: white;
 }
-html body.customize-support main.post-content img.attachment-post-thumbnail.wp-post-image {
+html body main img.attachment-post-thumbnail.wp-post-image {
 	width: 100%;
+}
+
+article.post {
+	background-image: url('/wp-content/themes/storytelling/images/bak.png') !important;
+	margin-top:-15rem;
 }
 
 
@@ -822,7 +844,8 @@ li.comment ol {
 	padding: 24px;
 }
 /* Social media */
-html body.customize-support main.post-content ul.socialmedia-list {
+/* html body.customize-support main.post-content ul.socialmedia-list { */
+html body main.post-content ul.socialmedia-list {
 	float: left;
 	list-style-type: none;
 	position: relative;
