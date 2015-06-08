@@ -28,6 +28,15 @@ remove_action( 'omega_after_main', 'omega_primary_sidebar' );
 			<li></li>
 			<li class="twitter"><a href="http://twitter.com/share?url=<?php echo urlencode(wp_get_shortlink()); ?>"><img src="/wp-content/themes/storytelling/images/twitter.png" alt="Twitter"/></a></li>
 		</ul>
+
+		<!-- Added left sidebar -->
+		<div id="left-widget-area" class="widget-area" role="complementary">
+			<?php if ( !function_exists('dynamic_sidebar') ||
+			!dynamic_sidebar('Left Widget') ) : ?>
+			<?php endif; ?>
+		</div>
+		<!-- END -->
+
 		<?php
 		do_action( 'omega_before_content' );
 		do_action( 'omega_content' );
