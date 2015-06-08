@@ -701,8 +701,17 @@ html body main img.attachment-post-thumbnail.wp-post-image {
 }
 
 article.post {
-	background-image: url('/wp-content/themes/storytelling/images/bak.png') !important;
-	margin-top:-15rem;
+	margin-top:-20rem;
+	background-color:#ffffff;
+	zoom: 1;
+	filter: alpha(opacity=0.5);
+	opacity: 0.99;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+main.post-content article.entry.post.format-standard.has-post-thumbnail div.entry-wrap header.entry-header h1.entry-title {
+	padding-top:15px;
 }
 
 
