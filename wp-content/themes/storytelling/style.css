@@ -542,13 +542,7 @@ div.site-title a img {
 	font-weight: 700;
 	margin: 5px 0 -37px;
 }
-/*
-.title-area {
-	background-image:url('/wp-content/themes/storytelling/images/hbglogo.png');
-	background-repeat: no-repeat;
-	background-position: -3rem 0rem;
-}
-*/
+
 
 .title-area:before {
 	content: url('/wp-content/themes/storytelling/images/hbglogo_90.png');
@@ -647,16 +641,7 @@ Content Area
 	font-style: italic;
 }
 
-/*.entry-meta a {
-	color: #999999;
-}
 
-.entry-meta a:hover {
-	color:#428bca;
-	text-decoration: none;
-}
-
-*/
 .entry-meta {
 	display: none;
 }
@@ -695,7 +680,9 @@ Content Area
 a.post-home-link {
 	font-size: 30px;
 	color: white;
+	text-decoration: underline;
 }
+
 html body main img.attachment-post-thumbnail.wp-post-image {
 	width: 100%;
 }
@@ -772,7 +759,7 @@ main.post-content article.entry.post.format-standard.has-post-thumbnail div.entr
 --------------------------------------------- */
 #left-widget-area {
 	float:left;
-	margin-top: 14rem;
+	margin-top: 10rem;
 	margin-left: 3rem;
 }
 html body main.post-content div#left-widget-area.widget-area li{
@@ -869,13 +856,13 @@ html body main.post-content ul.socialmedia-list {
 	float: left;
 	list-style-type: none;
 	position: relative;
-	top: 3.5rem;
-	left: 9rem;
-}
-ul.socialmedia-list li.twitter a img {
-	padding-top: 5px;
+	top: 5rem;
+	left: 15rem;
 }
 
+ul.socialmedia-list li {
+	display:inline-block;
+}
 
 
 
@@ -1107,21 +1094,36 @@ div.navbar-header a.navbar-brand {
 
 
 @media (max-width:991px){
+	html body main.post-content img.attachment-post-thumbnail.wp-post-image {
+		display:block;
+	}
 	.header-right,
 	.title-area {
 		text-align: center;
 	}
+	html body main.post-content article.entry.post{
+		margin-top: 0;
+	}
+	.entry-wrap {
+		width:100%
+	}
 	.entry.post {
-		margin-left: 7rem;
+		margin-left: 15rem;
 		margin-right: 5rem;
 	}
 	.site-title {
 		font-size:50px;
 	}
-	/* Social media */
-	html body.customize-support main.post-content ul.socialmedia-list {
+	#left-widget-area {
 		display:none;
 	}
+	/* Social media */
+	.socialmedia-list {
+		margin-top: -31.2rem;
+		margin-left:20rem;
+		z-index:10000;
+	}
+
 }
 
 @media (max-width:767px){
@@ -1156,7 +1158,9 @@ div.navbar-header a.navbar-brand {
 		margin-right: 3rem;
 	}
 	/* Social media */
+	/*
 	html body.customize-support main.post-content ul.socialmedia-list {
 
 	}
+	*/
 }

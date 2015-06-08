@@ -112,7 +112,7 @@ add_action( 'widgets_init', 'magazine_widgets_init', 12 );
 
 /* -- Added left widget area on posts */
 if ( function_exists('register_sidebars') ) {
-	    register_sidebar(array('name'=>'Vänster area - relaterat etc',));
+	    register_sidebar(array('name'=>'Left Widget',));
 }
 
 function magazine_exclude_sticky( $query ) {

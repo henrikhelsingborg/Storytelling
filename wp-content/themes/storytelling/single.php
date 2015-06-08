@@ -18,7 +18,7 @@ remove_action( 'omega_after_main', 'omega_primary_sidebar' );
 
 <!--	<main class="<?php echo omega_apply_atomic( 'main_class', 'content' );?>" <?php omega_attr( 'content' ); ?>> -->
 <main class="post-content" itemtype="http://schema.org/Blog" itemscope="itemscope" role="main">
-		<a href="/" class="post-home-link" title="Till startsidan">&lt;- Till startsidan</a>
+		<a href="/" class="post-home-link" title="Till startsidan">&lt; Till startsidan</a>
 		<?php
 		if ( has_post_thumbnail() ) {
 				the_post_thumbnail();
