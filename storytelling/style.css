@@ -701,6 +701,7 @@ html body main img.attachment-post-thumbnail.wp-post-image {
 }
 
 article.post {
+	width:55%;
 	margin-top:-20rem;
 	background-color:#ffffff;
 	zoom: 1;
