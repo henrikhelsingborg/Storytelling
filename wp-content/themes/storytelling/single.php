@@ -23,6 +23,7 @@ remove_action( 'omega_after_main', 'omega_primary_sidebar' );
 		if ( has_post_thumbnail() ) {
 				the_post_thumbnail();
 		} ?>
+		<!-- Added social media -->
 		<ul class="socialmedia-list">
 			<li class="fbook"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_the_permalink()); ?>"><img src="/wp-content/themes/storytelling/images/facebook.png" alt="Facebook"/></a></li>
 			<li></li>

@@ -702,7 +702,7 @@ html body main img.attachment-post-thumbnail.wp-post-image {
 
 article.post {
 	width:55%;
-	margin-top:-20rem;
+	margin-top:-30rem;
 	background-color:#ffffff;
 	zoom: 1;
 	filter: alpha(opacity=0.99);
@@ -768,6 +768,16 @@ main.post-content article.entry.post.format-standard.has-post-thumbnail div.entr
 	background-color: #ddd;
 }
 
+/* Left Widget Area
+--------------------------------------------- */
+#left-widget-area {
+	float:left;
+	margin-top: 14rem;
+	margin-left: 3rem;
+}
+html body main.post-content div#left-widget-area.widget-area li{
+	list-style-type: none;
+}
 
 /* Comments
 --------------------------------------------- */
