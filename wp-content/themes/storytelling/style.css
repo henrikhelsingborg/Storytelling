@@ -1154,9 +1154,24 @@ div.navbar-header a.navbar-brand {
 	}
 
 	.entry.post {
-		margin-left: 4rem;
-		margin-right: 3rem;
+		/* margin-left: 4rem;
+		margin-right: 3rem; */
+		margin-left: 0;
+		margin-right: 0;
 	}
+	main.post-content article.entry.post {
+		padding-left: 2rem;
+		padding-right: 2rem;
+		width: 100% !important;
+	}
+	main.post-content img.attachment-post-thumbnail.wp-post-image {
+		width: 100%;
+	}
+	html body.home div.site-container div.site-inner div.container div.row main.content.col-xs-12.col-sm-8 {
+		margin-left:3rem;
+	}
+
+
 	/* Social media */
 	/*
 	html body.customize-support main.post-content ul.socialmedia-list {
