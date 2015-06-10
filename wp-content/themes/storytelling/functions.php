@@ -152,3 +152,7 @@ function custom_trim_excerpt($text) { // Fakes an excerpt if needed
 	}
 return $text;
 }
+add_action( 'after_setup_theme', 'baw_theme_setup' );
+function baw_theme_setup() {
+  add_image_size( 'homepage-thumb', 377 ); // 300 pixels wide (and unlimited height)
+}

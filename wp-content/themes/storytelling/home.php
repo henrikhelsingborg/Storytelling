@@ -96,7 +96,7 @@ get_header(); ?>
 							if ( is_home() ) {
 								if ( has_post_thumbnail() ) : ?>
 									<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-									<?php the_post_thumbnail(); ?>
+									<?php the_post_thumbnail('homepage-thumb'); ?>
                   <h4 class="entry-title" itemprop="headline"><?php the_title(); ?></h4>
 									<!--</a> -->
 								<?php endif;
