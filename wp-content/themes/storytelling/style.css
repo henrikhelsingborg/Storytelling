@@ -1072,35 +1072,7 @@ div.navbar-header a.navbar-brand {
 	width: 49.8%;
 	float: left;
 }
-/*
-@media (max-width:1351px) {
 
-	.title-area:before {
-		content: url('/wp-content/themes/storytelling/images/hbglogo_80.png');
-		max-width:100%;
-		height:auto;
-
-		position:relative;
-		top: 7.5rem;
-		left: -12rem;
-
-		float:left;
-	}
-}
-
-@media (max-width:1025px) {
-
-	.title-area:before {
-		content: url('/wp-content/themes/storytelling/images/hbglogo_90.png');
-		max-width:100%;
-		height:auto;
-		float:right;
-		margin-top: -8rem;
-		margin-right: -11.5rem;
-
-	}
-}
-*/
 @media (max-width:1371px){
 	.title-area:before {
 		content: url('/wp-content/themes/storytelling/images/hbglogo_90.png');
@@ -1141,6 +1113,16 @@ div.navbar-header a.navbar-brand {
 	}
 	#left-widget-area {
 		display:none;
+	}
+	html body main.post-content div.hbgredlogo img {
+		display:inline-block;
+		position:relative;
+		max-height: 100px;
+		z-index:10000;
+		left:85%;
+		top:3rem;
+
+
 	}
 	/* Social media */
 
@@ -1226,10 +1208,14 @@ div.navbar-header a.navbar-brand {
 		z-index:10000;
 		padding-right: 20px;
 
-
-
-
 	}
-
+	@media (max-width:349px){
+		div.navbar-header a.navbar-brand {
+    color: #fff;
+    font-size: 18px;
+    margin-left: -3.5rem;
+}
+		}
+	}
 
 }
