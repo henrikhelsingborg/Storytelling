@@ -681,6 +681,7 @@ a.post-home-link {
 	font-size: 30px;
 	color: white;
 	text-decoration: underline;
+	float:left;
 }
 
 html body main img.attachment-post-thumbnail.wp-post-image {
@@ -701,6 +702,26 @@ article.post {
 main.post-content article.entry.post.format-standard.has-post-thumbnail div.entry-wrap header.entry-header h1.entry-title {
 	padding-top:15px;
 }
+.storyimage {
+	margin-top:-12rem;
+}
+
+html body main.post-content div.hbgredlogo {
+max-height: 100px;
+
+}
+
+html body main.post-content div.hbgredlogo img {
+	display:inline-block;
+	position:relative;
+	max-height: 100px;
+	z-index:10000;
+	left:88%;
+	top:3rem;
+
+
+}
+
 
 
 /* Entry Navigation
@@ -1107,6 +1128,7 @@ div.navbar-header a.navbar-brand {
 	.entry-wrap {
 		width:100%
 	}
+
 	.entry.post {
 		margin-left: 15rem;
 		margin-right: 5rem;
@@ -1114,19 +1136,26 @@ div.navbar-header a.navbar-brand {
 	.site-title {
 		font-size:50px;
 	}
+	article.post {
+		width:70%
+	}
 	#left-widget-area {
 		display:none;
 	}
 	/* Social media */
-	.socialmedia-list {
-		margin-top: -31.2rem;
-		margin-left:20rem;
+
+	html body main.post-content ul.socialmedia-list {
+		display:inline-block;
+		margin-top: -1.5rem;
 		z-index:10000;
+		float: left;
+		left: 0rem;
 	}
 
 }
 
 @media (max-width:767px){
+
 	.navbar .navbar-brand {
 	    display: block;
 	}
@@ -1154,8 +1183,6 @@ div.navbar-header a.navbar-brand {
 	}
 
 	.entry.post {
-		/* margin-left: 4rem;
-		margin-right: 3rem; */
 		margin-left: 0;
 		margin-right: 0;
 	}
@@ -1171,11 +1198,38 @@ div.navbar-header a.navbar-brand {
 		margin-left:3rem;
 	}
 
+	.socialmedia-list {
+		margin-top: -3rem;
+		margin-left:9rem;
+		z-index:10000;
+		float:right;
+	}
+	.post-home-link {
+		position: absolute;
+		top: 0rem;
+		margin-left: 2rem;
+		float:none;
+	}
+	html body main.post-content div.hbgredlogo img {
+		display:inline-block;
+		position:relative;
+		max-height: 60px;
+		z-index:10000;
+		left:83%;
+		top:0.8rem;
 
-	/* Social media */
-	/*
-	html body.customize-support main.post-content ul.socialmedia-list {
 
 	}
-	*/
+	html body main.post-content ul.socialmedia-list {
+		display:block;
+		margin-left:2rem;
+		z-index:10000;
+		padding-right: 20px;
+
+
+
+
+	}
+
+
 }
