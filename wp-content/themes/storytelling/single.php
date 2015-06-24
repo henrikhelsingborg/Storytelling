@@ -18,7 +18,7 @@ remove_action( 'omega_after_main', 'omega_primary_sidebar' );
 
 <!--	<main class="<?php echo omega_apply_atomic( 'main_class', 'content' );?>" <?php omega_attr( 'content' ); ?>> -->
 <main class="post-content" itemtype="http://schema.org/Blog" itemscope="itemscope" role="main">
-	<a href="/" class="post-home-link" title="Till startsidan">&lt; Till startsidan</a>
+	<a href="/" class="post-home-link" title="<?php echo get_bloginfo( 'name' ); ?>">&lt; <?php echo get_bloginfo( 'name' ); ?></a>
 	<div class="hbgredlogo"><img src="/wp-content/themes/storytelling/images/hbg_vapen.png" alt=""/></div>
 		<div class="storyimage">
 				<?php

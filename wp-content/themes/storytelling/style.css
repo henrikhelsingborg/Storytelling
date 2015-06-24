@@ -603,6 +603,9 @@ Content Area
 	margin-bottom: 30px;
 }
 
+h1.entry-title {
+font-size:36px;
+}
 
 .entry-content {
 	word-wrap: break-word;
@@ -667,7 +670,7 @@ Content Area
 }
 
 .entry.post {
-	margin-left: 50rem;
+	margin-left: 35rem;
 	margin-right: 50rem;
 	padding-top: 0rem;
 }
@@ -690,7 +693,7 @@ html body main img.attachment-post-thumbnail.wp-post-image {
 
 article.post {
 	width:55%;
-	margin-top:-30rem;
+	margin-top:-25rem;
 	background-color:#ffffff;
 	zoom: 1;
 	filter: alpha(opacity=0.99);
@@ -706,9 +709,14 @@ main.post-content article.entry.post.format-standard.has-post-thumbnail div.entr
 	margin-top:-12rem;
 }
 
+main.post-content article.entry.post.format-standard.has-post-thumbnail div.entry-wrap {
+	margin-left:6rem;
+	margin-right:2rem;
+}
+
+
 html body main.post-content div.hbgredlogo {
 max-height: 100px;
-
 }
 
 html body main.post-content div.hbgredlogo img {
@@ -1050,7 +1058,7 @@ main.content {
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
-		text-decoration:underline;
+		text-decoration:none;
 }
 
 div.navbar-header a.navbar-brand {
