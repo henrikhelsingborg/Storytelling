@@ -1187,6 +1187,12 @@ div.navbar-header a.navbar-brand {
 		margin-left:3rem;
 	}
 
+	main.post-content article.entry.post.format-standard.has-post-thumbnail div.entry-wrap {
+		margin-left:0rem;
+		margin-right:0rem;
+	}
+
+
 	.socialmedia-list {
 		margin-top: -3rem;
 		margin-left:9rem;
