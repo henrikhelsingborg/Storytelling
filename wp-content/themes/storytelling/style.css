@@ -595,6 +595,11 @@ div.site-title a img {
 /*
 Content Area
 ---------------------------------------------------------------------------------------------------- */
+/* Page */
+div.row main#content.content.col-xs-12.col-sm-8 article.entry.page div.entry-wrap {
+	margin-left: 1.2rem;
+}
+
 
 /* Entries
 --------------------------------------------- */
@@ -1047,6 +1052,18 @@ a.logo-link img.logo {
 
 }
 
+
+/* Breadcrumb post */
+div.post-home-link div.breadcrumb-container.theme1 ul li {
+	font-size:25px;
+}
+
+/* Breadcrumb page */
+div.site-container div.site-inner div.container div.row main#content.content.col-xs-12.col-sm-8 div.breadcrumb-container.theme1 ul li a,
+div.site-inner div.container div.row main#content.content.col-xs-12.col-sm-8 div.breadcrumb-container.theme1 ul li span.separator {
+	color:#000000;
+}
+
 /* Frontpage related */
 
 div.container div.row main.content.col-xs-12.col-sm-8 {
@@ -1225,6 +1242,10 @@ div.navbar-header a.navbar-brand {
 		padding-right: 20px;
 
 	}
+	a.post-home-link {
+		font-size: 18px;
+}
+
 	@media (max-width:349px){
 		div.navbar-header a.navbar-brand {
     color: #fff;
