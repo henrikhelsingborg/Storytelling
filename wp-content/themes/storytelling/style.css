@@ -1268,7 +1268,13 @@ html body main.post-content ul.socialmedia-list-bottom {
 			margin-left:2rem;
 		}
 		html body div.site-container div.container nav.navbar.navbar-default.nav-secondary div.navbar-header a.navbar-brand {
-		
+		 
+		}
+		div.post-home-link div.breadcrumb-container.theme1 ul li {
+			font-size: 12px;
+		}
+		.navbar-toggle {
+			padding: 9px 5px;
 		}
 	}
 
