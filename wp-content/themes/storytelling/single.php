@@ -48,8 +48,15 @@ remove_action( 'omega_after_main', 'omega_primary_sidebar' );
 		<?php
 		do_action( 'omega_before_content' );
 		do_action( 'omega_content' );
-		do_action( 'omega_after_content' );
 		?>
+		<ul class="socialmedia-list-bottom">
+			<li class="fbook"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_the_permalink()); ?>"><img src="/wp-content/themes/storytelling/images/facebook.png" alt="Facebook"/></a></li>
+			<li></li>
+			<li class="twitter"><a href="http://twitter.com/share?url=<?php echo urlencode(wp_get_shortlink()); ?>"><img src="/wp-content/themes/storytelling/images/twitter.png" alt="Twitter"/></a></li>
+		</ul>
+		<?php
+		do_action( 'omega_after_content' );
+	?>
 
 	</main><!-- .content -->
 

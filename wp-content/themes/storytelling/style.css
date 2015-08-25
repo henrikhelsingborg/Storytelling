@@ -897,6 +897,9 @@ html body main.post-content ul.socialmedia-list {
 ul.socialmedia-list li {
 	display:inline-block;
 }
+.social-media-list-bottom {
+	display:none;
+}
 
 
 
@@ -1088,7 +1091,9 @@ div.navbar-header a.navbar-brand {
     margin-right: 0;
 		margin-top: 20px;
 }
-
+html body main.post-content ul.socialmedia-list-bottom {
+    display:none;
+}
 
 /* Masonry
 --------------------------------------------- */
@@ -1210,11 +1215,11 @@ div.navbar-header a.navbar-brand {
 	}
 
 
-	.socialmedia-list {
-		margin-top: -3rem;
-		margin-left:9rem;
-		z-index:10000;
-		float:right;
+	html body main.post-content ul.socialmedia-list{
+	display:none;
+	}
+	.socialmedia-list-bottom {
+	display:inline-block;
 	}
 	.post-home-link {
 		position: absolute;
@@ -1235,13 +1240,14 @@ div.navbar-header a.navbar-brand {
 	.storyimage {
     margin-top: -6rem;
 }
-	html body main.post-content ul.socialmedia-list {
+	/* html body main.post-content ul.socialmedia-list {
 		display:block;
 		margin-left:2rem;
 		z-index:10000;
 		padding-right: 20px;
 
 	}
+	*/
 	a.post-home-link {
 		font-size: 18px;
 }
