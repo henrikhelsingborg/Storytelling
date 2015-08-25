@@ -1162,6 +1162,12 @@ html body main.post-content ul.socialmedia-list-bottom {
 		float: left;
 		left: 0rem;
 	}
+	html body div.site-container div.site-inner div.container div.row main.content.col-xs-12.col-sm-8 {
+		margin-left:4rem;
+	}
+	html body div.site-container div.container nav.navbar.navbar-default.nav-secondary {
+		margin-left:4rem;
+	}
 
 }
 
@@ -1258,6 +1264,11 @@ html body main.post-content ul.socialmedia-list-bottom {
     font-size: 18px;
     margin-left: -3.5rem;
 }
+		html body div.site-container div.site-inner div.container {
+			margin-left:2rem;
+		}
+		html body div.site-container div.container nav.navbar.navbar-default.nav-secondary div.navbar-header a.navbar-brand {
+		
 		}
 	}
 
